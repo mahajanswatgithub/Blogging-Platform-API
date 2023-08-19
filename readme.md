@@ -29,9 +29,13 @@
 
      xiii. Follow User
 
-     xiv. Get All Posts of user
+     xiv. Unfollow User
 
-     xv. Get All Users
+     xv. authorize Unfollow
+
+     xvi. Get All Posts of user
+
+     xvii. Get All Users
 
 
   2. PostService
@@ -50,6 +54,8 @@
      i. Start Following
 
      ii. Is Follow Allowed
+
+     iii. findFollow
 
   5. CommentService
 
@@ -75,7 +81,10 @@
   JpaRepository
 
 ### DataBase Design
-![EER-BloggingApp-DFD](EER-BloggingApp.png)
+![EER-BloggingApp-DFD](EER-BloggingApp.PNG)
+
+### Project Running Mode
+![EER-BloggingApp-DFD](Project_Running_Mode.PNG)
 
 ### Data Structure used in your project
 
@@ -95,3 +104,6 @@
 * We can also Remove posts and comments of a post owner.
 * If we want to deactivate this account for particular timeline then we can able to sign out from this application as well.
 
+### Project Explaination Video
+
+**https://drive.google.com/file/d/13703atjijjhjO7YLtyqVgbDfTu34o3Z8/view?usp=sharing**
